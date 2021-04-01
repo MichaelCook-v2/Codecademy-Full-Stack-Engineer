@@ -17,7 +17,7 @@ console.log(numImaginaryFriends(10)) // Should print 3 (2.5 rounded up!)
 const truthyOrFalsy = value => {
   if (value) {
     return true
-  } 
+  }
     return false
   }
 
@@ -35,7 +35,7 @@ const rollTheDice = () => {
     let die1 = Math.floor(Math.random() * 6 + 1)
     let die2 = Math.floor(Math.random() * 6 + 1)
     return die1 + die2
-} 
+}
 
 // Write your function here:
 
@@ -97,8 +97,9 @@ console.log(lifePhase(94)) //should print 'child'
 
 // Write your function here:
 
-const agreeOrDisagree = (first, second.toLowerCase) =>{
-  if(first === second) {
+const agreeOrDisagree = (first,second) =>{
+
+  if(first === second.toLowerCase()) {
     return 'You agree!';
   } else {
     return'You disagree!';
