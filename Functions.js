@@ -80,7 +80,7 @@ function getFahrenheit(celsius) {
  
 getFahrenheit(15); // Returns 59
 
-unction monitorCount(rows, columns) {
+function monitorCount(rows, columns) {
   return rows * columns;
 }
 
